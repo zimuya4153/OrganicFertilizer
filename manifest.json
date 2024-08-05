@@ -1,6 +1,8 @@
 {
     "name": "${modName}",
     "entry": "${modFile}",
-    "version": "${modVersion}",
-    "type": "native"
+    "version": "1.0.0",
+    "type": "native",
+    "description":"有机肥。通过下蹲催熟农作物/树苗",
+    "author":"1.0.0"
 }

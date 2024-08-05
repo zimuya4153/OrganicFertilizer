@@ -1,25 +1,25 @@
 {
     "format_version": 2,
-    "tooth": "my-mod",
-    "version": "0.0.0",
+    "tooth": "github.com/zimuya4153/OrganicFertilizer",
+    "version": "1.0.0",
     "info": {
-        "name": "My Mod Name",
-        "description": "My Mod Description",
-        "author": "My Name",
+        "name": "OrganicFertilizer - 有机肥",
+        "description": "通过不断下蹲促使农作物/树苗快速生长",
+        "author": "小小的子沐呀",
+        "source": "github.com/zimuya4153/OrganicFertilizer",
         "tags": [
-            "levilamina",
-            "mod"
+            "levilamina"
         ]
     },
-    "asset_url": "My Asset Url",
+    "asset_url": "https://github.com/zimuya4153/OrganicFertilizer/releases/download/v1.0.0/OrganicFertilizer-windows-x64.zip",
     "prerequisites": {
-        "github.com/LiteLDev/LeviLamina": "My LeviLamina Dependency Version"
+        "github.com/LiteLDev/LeviLamina": "0.13.x"
     },
     "files": {
         "place": [
             {
-                "src": "my-mod/*",
-                "dest": "plugins/my-mod/"
+                "src": "OrganicFertilizer/*",
+                "dest": "plugins/OrganicFertilizer/"
             }
         ]
     }

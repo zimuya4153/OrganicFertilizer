@@ -1,35 +1,30 @@
-# LeviLamina Mod Template
+# OrganicFertilizer - 有机肥
 
-A LeviLamina mod template
+## 简介
+通过不断下蹲促使农作物快速生长，只要能被骨粉催熟的方块均可。
+> 支持addon
 
-This mod is a template for developing LeviLamina mods.
+## 配置文件
+```json
+{
+    "version": 1, // 配置文件版本(勿动)
+    "hunger": 1.0, // 催熟成功减少的饥饿值(浮点数)
+    "range": 5, // 催熟范围(0-255的整数)
+    "particle": "minecraft:soul_particle", // 催熟的粒子效果
+    "blacklist": [ // 催熟黑名单
+        "minecraft:grass_block", // 草方块
+        "minecraft:short_grass", // 矮草丛
+        "minecraft:fern" // 蕨
+    ]
+}
+```
 
-## Install
+## 安装方法
 
-Generate a new repository from this template.
-
-## Usage
-
-Before using this mod template, make sure that you have installed XMake and a Minecraft Bedrock Server with LeviLamina.
-
-1. Clone the new repository into a local folder.
-
-1. Change the mod name and the expected LeviLamina version in `xmake.lua`.
-
-1. Add your code.
-
-1. Run `xmake repo -u` in the root of the repository.
-
-1. Run `xmake` to build the mod.
-
-Now the build is complete at `bin/`.
-
-## Contributing
-
-Ask questions by creating an issue.
-
-PRs accepted.
-
-## License
-
-CC0-1.0 © LiteLDev
+- 手动安装
+  - 前往[Releases](https://github.com/zimuya4153/OrganicFertilizer/releases)下载最新版本的`OrganicFertilizer-windows-x64.zip`
+  - 解压`压缩包内的`文件夹到`./plugins/`目录
+- Lip 安装
+  - 输入命令`lip install -y github.com/zimuya4153/OrganicFertilizer`
+- ~~一条龙安装~~
+  - ~~去 Q 群，喊人，帮你安装~~
